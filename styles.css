@@ -1,0 +1,34 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.box {
+    width: 32%;
+    height: 33%;
+    border: 1px inset black;
+    background-size: cover;
+}
+
+.hidden {
+    display: none;
+}
